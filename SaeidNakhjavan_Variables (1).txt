@@ -1,0 +1,38 @@
+
+   53  STOCK=AAPL
+   54  echo $STOCK
+   55  STOCK=${STOCK}_US
+   56  PRICE=290.84
+   57  echo "The current price of $STOCK is $PRICE"
+   58  WHOAMI=$(whoami)
+   59  SERVERTYPE=$(uname)
+   60  echo $SERVERTYPE
+   61  CMD="uname -i"
+   62  echo $CMD
+   63  echo $($CMD)
+   64  cd ~
+   65  mkdir scripts
+   66  echo $PATH
+   67  export PATH=$PATH:~/scripts
+   68  echo $PATH
+   69  rm -rf ~/Algo1
+   70  mkdir Payment1
+   71  mkdir Payment1/logs Payment1/configuration
+   72  Payment1/scripts
+   73  mkdir Payment1/scripts
+   74  touch Payment1/scripts/start.sh
+   75  touch Payment1/configuration/instance.properties
+   76  chmod 744 Payment1/configuration/instance.properties
+   77  chmod 775 Payment1/scripts/start.sh
+   78  man cat > ~/cat.output
+   79  chmod 744 ~/cat.output
+   80  cd ~
+   81  pwd
+   82  rm -rf Payment1
+   83  rm -i ~/cat.output
+   84  mkdir temp
+   85  MYTEMP=~/temp
+   86  echo $MYTEMP
+   87  MYTEMP=
+   88  rmdir ~/temp
+   89  history > SaeidNakhjavan_Variables.txt
